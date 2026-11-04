@@ -10,7 +10,7 @@ function btnClickName(){
 
     customerName.push(name);
     console.log(customerName);
-    loadName();
+   // loadName();
    // document.getElementById("olCustomer").innerHTML+=`<li>${name}</li>`
 
 }
