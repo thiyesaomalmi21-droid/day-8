@@ -1,0 +1,9 @@
+.container{
+    background-attachment: fixed;
+    background-color: bisque;
+    color: black;
+    margin: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-self: center;
+}
