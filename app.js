@@ -49,6 +49,11 @@ function addCustomer(){
     let txtsalary=document.getElementById(txtSalary).value;
 
     let customer ={
-        id:
+        id:txtid,
+        name:txtname,
+        age:txtage,
+        address : txtaddress,
+        salary:txtsalary
+
     }
 }
