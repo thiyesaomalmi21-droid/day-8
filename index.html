@@ -1,67 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- <input type="text" name="" id="txtField">
-    <input type="button" value="Click Me" onclick="btnClickName()">
+<center>
+        <table>
+            <tr>
+                <td class="container">
+                    <h1>Cutomer Management</h1>
+                    <input type="text" name="" placeholder="id" id="txtId">
+                    <input type="text" name="" placeholder="name" id="txtName">
+                    <input type="text" name="" placeholder="age" id="txtAge">
+                    <input type="text" name="" placeholder="address" id="txtAdress">
+                    <input type="text" name="" placeholder="salary" id="txtSalary">
+                    <input type="button" value="Add Customer" onclick="addCustomer()">
 
-    <h1 id="lblCustName">Customer Name</h1>
-    <input type="button" value="load list" onclick="loadName()">
-    <ol id="olCustomer">
-    //</ol> -->
+                    <h3>View Customer</h3>
 
+                    <table border="1" id="customertable">
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Address</th>
+                            <th>Salary</th>
+                        </tr>
+                    </table>
 
-    <!-- <table>
-        <tr>
-            <td class="container">
-                <h1 >Customer List</h1>
-                <input type="text" name="" id="txtField">
-                <input type="button" value="Click Me" onclick="btnClickName()">
-                <ol id="olCustomer"></ol>
+                </td>
+                <td class="container">
+                    <h1>Item Management</h1>
 
-                
-            </td>
-            <td class="container">
-                <h1>Item List</h1>
-                <input type="text" id="itemfield">
-                <input type="button" value="click Me" onclick="btnClickItem()">
-                <ol id="olItem">
+                    <input type="text" name="" placeholder="item name" id="txtName">
+                    <input type="text" name="" placeholder="expiary date" id="txtEXp">
+                    <input type="text" name="" placeholder="manufacture date" id="txtManufacture">
+                    <input type="text" name="" placeholder="price" id="txtPrice">
+                    <input type="button" value="Add Item" onclick="addItem()">
 
-                </ol>
+                    <h3>View Item</h3>
 
-            </td>
-        </tr>
-    </table> -->
-  
-    <input type="text" name="" placeholder="id" id="txtId">
-    <input type="text" name="" placeholder="name" id="txtName">
-    <input type="text" name="" placeholder="age" id="txtAge">
-    <input type="text" name="" placeholder="address" id="txtAdress">
-    <input type="text" name="" placeholder="salary" id="txtSalary">
-    <input type="button" value="Add Customer" onclick="addCustomer()">
+                    <table border="1" id="itemtable">
+                        <tr>
+                            <th>Item Name</th>
+                            <th>Expiary Date</th>
+                            <th>Manufacture date</th>
+                            <th>Price</th>
 
-    <h3>View Customer</h3>
+                        </tr>
+                    </table>
 
-    <table border="1" width="100%" >
-        <tr>
-            <th>Id</th>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Address</th>
-            <th>Salary</th>
-        </tr>
-    </table>
-
-
-    
-    
+                </td>
+            </tr>
+        </table>
+    </center>
 
     <script src="app.js"></script>
 </body>
+
 </html>
